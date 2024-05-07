@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/gray"
     tools:context=".MainActivity"
+    tools:ignore="ButtonStyle,HardcodedText"
     android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
@@ -30,23 +31,28 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:text="test"/>
+        android:id="@+id/id_1"
+        android:text="1"
+        tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"
-            tools:ignore="HardcodedText" />
+            android:id="@+id/id_2"
+            android:text="2"
+            tools:ignore="ButtonStyle,HardcodedText" />
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_3"
+            android:text="3"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_plus"
+            android:text="+"/>
 </LinearLayout>
     <LinearLayout
         android:layout_marginTop="12dp"
@@ -58,22 +64,26 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_4"
+            android:text="4"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_5"
+            android:text="5"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_6"
+            android:text="6"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_minese"
+            android:text="-"/>
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="12dp"
@@ -85,22 +95,26 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_7"
+            android:text="7"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_8"
+            android:text="8"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_9"
+            android:text="9"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_zarbe"
+            android:text="*"/>
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="12dp"
@@ -112,76 +126,26 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_0"
+            android:text="0"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_clear"
+            android:text="c"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_tagseme"
+            android:text="÷"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_marginTop="12dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_marginTop="12dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="test"/>
+            android:id="@+id/id_qcoule"
+            android:text="="/>
     </LinearLayout>
 
 </LinearLayout>
